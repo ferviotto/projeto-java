@@ -4,10 +4,9 @@ import ecommerce.util.cores;
 
 public class clientes extends DadosCliente{
 
-	public clientes(String nome, String aniversario, String telefone, String email, String rua, String complemento,
-			String bairro, String cidade, String estado, String pais, long cep, String usuario, String senha,
+	public clientes(String nome, String aniversario, String telefone, String email, String endereco, String usuario, String senha,
 			String nomeCartao, long numeroCartao, int cvv, String dataValidade) {
-		super(nome, aniversario, telefone, email, rua, complemento, bairro, cidade, estado, pais, cep, usuario, senha,
+		super(nome, aniversario, telefone, email, endereco, usuario, senha,
 				nomeCartao, numeroCartao, cvv, dataValidade);
 	}
 	
@@ -16,9 +15,7 @@ public class clientes extends DadosCliente{
         System.out.println("\nData de Aniversário: " + this.getAniversario());
         System.out.println("\nTelefone: " + this.getTelefone());
         System.out.println("\nE-mail: " + this.getEmail());
-        System.out.println("\nEndereço: Rua " + this.getRua() + "\nComplemento: " + this.getComplemento() +
-                "\nBairro: " + this.getBairro() + "\nCidade: " + this.getCidade() +
-                "\nEstado: " + this.getEstado() + "\nPaís: " + this.getPais() + "\nCEP: " + this.getCep());
+        System.out.println("\nEndereço: " + this.getEndereco());
     }
 	
 
