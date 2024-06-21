@@ -7,13 +7,7 @@ public class DadosCliente {
     private String aniversario;
     private String telefone;
 	private String email;
-	private String rua;
-	private String complemento;
-	private String bairro;
-	private String cidade;
-	private String estado;
-	private String pais;
-	private long cep;
+	private String endereco;
 	private String usuario;
 	private String senha;
 	private String nomeCartao;
@@ -22,21 +16,14 @@ public class DadosCliente {
 	private String dataValidade;
 	
 	//Constructors
-	protected DadosCliente(String nome, String aniversario, String telefone, String email, String rua, String complemento,
-			String bairro, String cidade, String estado, String pais, long cep, String usuario, String senha,
+	public DadosCliente(String nome, String aniversario, String telefone, String email, String endereco, String usuario, String senha,
 			String nomeCartao, long numeroCartao, int cvv, String dataValidade) {
 		super();
 		this.nome = nome;
 		this.aniversario = aniversario;
 		this.telefone = telefone;
 		this.email = email;
-		this.rua = rua;
-		this.complemento = complemento;
-		this.bairro = bairro;
-		this.cidade = cidade;
-		this.estado = estado;
-		this.pais = pais;
-		this.cep = cep;
+		this.endereco = endereco;
 		this.usuario = usuario;
 		this.senha = senha;
 		this.nomeCartao = nomeCartao;
@@ -46,143 +33,91 @@ public class DadosCliente {
 	}
 	
 	//Getters e Setters
-	protected String getNome() {
+	public String getNome() {
 		return nome;
 	}
 
-	protected void setNome(String nome) {
+	public void setNome(String nome) {
 		this.nome = nome;
 	}
 
-	protected String getAniversario() {
+	public String getAniversario() {
 		return aniversario;
 	}
 
-	protected void setAniversario(String aniversario) {
+	public void setAniversario(String aniversario) {
 		this.aniversario = aniversario;
 	}
 
-	protected String getTelefone() {
+	public String getTelefone() {
 		return telefone;
 	}
 
-	protected void setTelefone(String telefone) {
+	public void setTelefone(String telefone) {
 		this.telefone = telefone;
 	}
 
-	protected String getEmail() {
+	public String getEmail() {
 		return email;
 	}
 
-	protected void setEmail(String email) {
+	public void setEmail(String email) {
 		this.email = email;
 	}
 
-	protected String getRua() {
-		return rua;
+	public String getEndereco() {
+		return endereco;
 	}
 
-	protected void setRua(String rua) {
-		this.rua = rua;
+	public void setEndereco(String endereco) {
+		this.endereco = endereco;
 	}
 
-	protected String getComplemento() {
-		return complemento;
-	}
-
-	protected void setComplemento(String complemento) {
-		this.complemento = complemento;
-	}
-
-	protected String getBairro() {
-		return bairro;
-	}
-
-	protected void setBairro(String bairro) {
-		this.bairro = bairro;
-	}
-
-	protected String getCidade() {
-		return cidade;
-	}
-
-	protected void setCidade(String cidade) {
-		this.cidade = cidade;
-	}
-
-	protected String getEstado() {
-		return estado;
-	}
-
-	protected void setEstado(String estado) {
-		this.estado = estado;
-	}
-
-	protected String getPais() {
-		return pais;
-	}
-
-	protected void setPais(String pais) {
-		this.pais = pais;
-	}
-
-	protected long getCep() {
-		return cep;
-	}
-
-	protected void setCep(long cep) {
-		this.cep = cep;
-	}
-
-	protected String getUsuario() {
+	public String getUsuario() {
 		return usuario;
 	}
 
-	protected void setUsuario(String usuario) {
+	public void setUsuario(String usuario) {
 		this.usuario = usuario;
 	}
 
-	protected String getSenha() {
+	public String getSenha() {
 		return senha;
 	}
 
-	protected void setSenha(String senha) {
+	public void setSenha(String senha) {
 		this.senha = senha;
 	}
 
-	protected String getNomeCartao() {
+	public String getNomeCartao() {
 		return nomeCartao;
 	}
 
-	protected void setNomeCartao(String nomeCartao) {
+	public void setNomeCartao(String nomeCartao) {
 		this.nomeCartao = nomeCartao;
 	}
 
-	protected long getNumeroCartao() {
+	public long getNumeroCartao() {
 		return numeroCartao;
 	}
 
-	protected void setNumeroCartao(long numeroCartao) {
+	public void setNumeroCartao(long numeroCartao) {
 		this.numeroCartao = numeroCartao;
 	}
 
-	protected int getCvv() {
+	public int getCvv() {
 		return cvv;
 	}
 
-	protected void setCvv(int cvv) {
+	public void setCvv(int cvv) {
 		this.cvv = cvv;
 	}
 
-	protected String getDataValidade() {
+	public String getDataValidade() {
 		return dataValidade;
 	}
 
-	protected void setDataValidade(String dataValidade) {
+	public void setDataValidade(String dataValidade) {
 		this.dataValidade = dataValidade;
 	}
-	
 }
-	
-
-	
