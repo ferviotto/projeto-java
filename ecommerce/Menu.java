@@ -12,7 +12,7 @@ public class Menu {
 		
 		
 		//Teste Cadastro Cliente
-	    clientes c1 = new clientes("Fernanda","04/10/1996","996543312","fer123@gmail.com","Rua Alberto de Souza", "Ap 23", "Cambuí", "Jundiái", "São Paulo", "Brasil", 13456543,"fer123","123$fer", "Fernanda V", 46378123, 456, "12/10/2030");
+	    clientes c1 = new clientes("Fernanda","04/10/1996","996543312","fer123@gmail.com","Rua Alberto de Souza","fer123","123$fer", "Fernanda V", 46378123, 456, "12/10/2030");
 		c1.cadastrarCliente();
 		c1.exibirDadosCartao();
 		c1.exibirUsuario();
@@ -23,10 +23,7 @@ public class Menu {
 		p1.exibirGestaoProduto();
 		p1.exibirStatusAtividade();
 		p1.exibirCarrinho();
-		p1.exibirCheckout();
-	
-		
-		
+		p1.exibirCheckout();	
 		
 		Scanner read = new Scanner (System.in);
 		
