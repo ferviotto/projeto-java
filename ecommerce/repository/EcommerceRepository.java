@@ -13,5 +13,6 @@ public interface EcommerceRepository {
 	public void exibirStatusAtividade();
 	public void exibirCarrinho();
 	public void exibirCheckout();
+	public void listarProdutos();
 }
 
