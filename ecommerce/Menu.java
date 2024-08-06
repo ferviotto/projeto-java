@@ -22,11 +22,11 @@ public class Menu {
         while (true) {
             System.out.println(cores.TEXT_YELLOW_BOLD);
             System.out.println("\nBoas vindas ao MAGICAE, onde a magia acontece!");
-            System.out.println(cores.TEXT_BLACK);
+            System.out.println(cores.TEXT_WHITE);
             System.out.println("**************************************************");
             System.out.println(cores.TEXT_YELLOW_BOLD);
             System.out.println("\t\tMENU MAGICAE");
-            System.out.println(cores.TEXT_BLACK);
+            System.out.println(cores.TEXT_WHITE);
             System.out.println("**************************************************");
             System.out.println("\n1. Cadastro");
             System.out.println("\n2. Login");
